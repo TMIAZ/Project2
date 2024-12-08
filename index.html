@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's movies</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>See today's Finnkino movie screenings!</h1>
+    </header>
+    <main>
+        <section id="controls">
+            <div class="search-box">
+                <label for="theater-select">Choose a Theater:</label>
+                <select id="theater-select">
+                    <option value="">Choose a theater</option>
+                </select>
+            </div>
+
+            <div class="search-box">
+                <label for="movie-search">Search Movies:</label>
+                <input type="text" id="movie-search" placeholder="Search for a movie...">
+                <button id="movie-search-btn">Search</button>
+            </div>
+        </section>
+
+        <section id="movies"></section>
+    </main>
+
+</body>
+</html>
